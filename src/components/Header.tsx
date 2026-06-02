@@ -18,7 +18,7 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 md:px-10">
         <button
           type="button"
-          aria-label="메뉴 열기"
+          aria-label="Open menu"
           onClick={() => setMenuOpen(!menuOpen)}
           className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 md:hidden"
         >

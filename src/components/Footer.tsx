@@ -57,7 +57,7 @@ export default function Footer() {
           <div>
             <h3 className="font-sans text-xl font-bold">Get in touch</h3>
             <p className="mt-2 text-sm text-[#666]">
-              UX/UI 및 Product Design 프로젝트 협업 문의를 환영합니다.
+              Open to UX/UI and product design project collaborations.
             </p>
             <form onSubmit={handleSubscribe} className="mt-6 flex gap-3">
               <input

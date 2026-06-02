@@ -3,7 +3,7 @@ export const profile = {
   title: "UX/UI, Product Designer",
   tagline:
     "I'm Saeyoun Park — a UX/UI and product designer helping brands reach their full potential through user-centered strategy and intuitive digital experiences.",
-  bio: "User-centered UX/UI 및 Product Design 분야에서 디지털 제품 경험을 설계하는 디자이너를 목표로 하고 있습니다. 영국 시장에 적합한 프로덕트 디자이너로 성장하기 위해 글로벌 사용자 행동과 비즈니스 관점을 함께 고려하는 디자인 역량을 발전시키고 있습니다.",
+  bio: "I aim to design digital product experiences in user-centered UX/UI and product design. I am developing design capabilities that consider global user behavior and business perspectives to grow as a product designer suited to the UK market. I value data-driven decision-making and problem-solving design processes, and believe in creating better user experiences through collaboration.",
   contact: {
     phone: "010-1234-1234",
     email: "blckasy@snu.ac.kr",
@@ -42,7 +42,7 @@ export const projects = [
     company: "Nova Digital",
     period: "2024/03 ~ 2026/06",
     description:
-      "웹 및 모바일 서비스의 사용자 경험 개선 프로젝트를 주도하였으며, 사용자 리서치와 데이터 분석을 기반으로 주요 기능을 재설계했습니다.",
+      "Led user experience improvement projects for web and mobile services, redesigning key features based on user research and data analysis.",
     image:
       "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=1000&fit=crop",
   },
@@ -52,7 +52,7 @@ export const projects = [
     company: "Bright Studio",
     period: "2022/01 ~ 2024/02",
     description:
-      "다양한 스타트업 고객의 서비스 디자인 프로젝트를 수행하며 사용자 흐름 설계, 와이어프레임 제작, 프로토타이핑을 담당했습니다.",
+      "Delivered service design projects for various startup clients, handling user flow design, wireframing, and prototyping.",
     image:
       "https://images.unsplash.com/photo-1559028012-481c04fa702d?w=800&h=1000&fit=crop",
   },
@@ -62,7 +62,7 @@ export const projects = [
     company: "Future Labs",
     period: "2020/07 ~ 2021/12",
     description:
-      "사용자 인터뷰 및 사용성 테스트를 지원하고, 인사이트를 기반으로 화면 개선안을 제안했습니다.",
+      "Supported user interviews and usability testing, proposing screen improvements based on research insights.",
     image:
       "https://images.unsplash.com/photo-1586717799252-bd134ad00e6c?w=800&h=1000&fit=crop",
   },
@@ -72,7 +72,7 @@ export const projects = [
     company: "Nova Digital",
     period: "2024",
     description:
-      "디자인 시스템 구축에 참여하여 디자인 일관성을 향상시켰고, 사용자 만족도와 전환율 개선에 기여했습니다.",
+      "Contributed to building a design system that improved design consistency, user satisfaction, and conversion rates.",
     image:
       "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=800&h=1000&fit=crop",
   },
@@ -155,22 +155,22 @@ export const faqs = [
   {
     question: "What is your design process?",
     answer:
-      "저는 사용자 리서치와 데이터 분석을 기반으로 문제를 정의하고, 와이어프레임과 프로토타입을 통해 솔루션을 검증합니다. 개발자 및 기획자와 긴밀히 협업하여 일정 내에 제품을 출시합니다.",
+      "I define problems through user research and data analysis, then validate solutions with wireframes and prototypes. I collaborate closely with developers and product managers to ship products on schedule.",
   },
   {
     question: "What industries do you work with?",
     answer:
-      "디지털 제품, 스타트업, 웹/모바일 서비스 등 다양한 분야에서 UX/UI 및 프로덕트 디자인 프로젝트를 수행해 왔습니다. 특히 사용자 경험과 마케팅 성과를 연결하는 디자인 전략에 관심이 많습니다.",
+      "I have worked on UX/UI and product design projects across digital products, startups, and web/mobile services. I am especially interested in design strategies that connect user experience with marketing performance.",
   },
   {
     question: "What tools do you use?",
     answer:
-      "Figma를 주력 디자인 도구로 사용하며, 사용자 리서치, 프로토타이핑, 디자인 시스템 구축까지 전 과정을 담당합니다. 데이터 분석 도구를 활용한 의사결정도 병행합니다.",
+      "Figma is my primary design tool. I handle the full process from user research and prototyping to design system development, and I also use data analysis tools to inform design decisions.",
   },
   {
     question: "Are you available for freelance work?",
     answer:
-      "현재 London, UK에 거주하며 UX/UI 및 Product Design 관련 프로젝트 및 협업 기회에 열려 있습니다. blckasy@snu.ac.kr로 연락 주시면 감사하겠습니다.",
+      "I am currently based in London, UK and open to UX/UI and product design projects and collaboration opportunities. Please reach out at blckasy@snu.ac.kr.",
   },
 ];
 
