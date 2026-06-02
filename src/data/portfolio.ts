@@ -79,42 +79,12 @@ export const projects = [
 ];
 
 export const services = [
-  {
-    title: "UX Research",
-    stars: 5,
-    icon: "🔍",
-    bg: "bg-[#E8E0F5]",
-  },
-  {
-    title: "UI Design (Figma)",
-    stars: 5,
-    icon: "✏️",
-    bg: "bg-[#D4F0E8]",
-  },
-  {
-    title: "Product Strategy",
-    stars: 4,
-    icon: "📐",
-    bg: "bg-[#F5E0E8]",
-  },
-  {
-    title: "Digital Marketing",
-    stars: 4,
-    icon: "📊",
-    bg: "bg-[#E0EEF5]",
-  },
-  {
-    title: "Data Analysis",
-    stars: 4,
-    icon: "📈",
-    bg: "bg-[#F5F0E0]",
-  },
-  {
-    title: "Prototyping",
-    stars: 5,
-    icon: "⚡",
-    bg: "bg-[#E8F5E0]",
-  },
+  { title: "UX Research", stars: 5, icon: "🔍" },
+  { title: "UI Design (Figma)", stars: 5, icon: "✏️" },
+  { title: "Product Strategy", stars: 4, icon: "📐" },
+  { title: "Digital Marketing", stars: 4, icon: "📊" },
+  { title: "Data Analysis", stars: 4, icon: "📈" },
+  { title: "Prototyping", stars: 5, icon: "⚡" },
 ];
 
 export const stats = [
@@ -179,22 +149,19 @@ export const education = [
     title: "Master of Arts — Art Management",
     school: "Seoul National University",
     period: "2025/03 ~ 2027/02",
-    image:
-      "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&h=800&fit=crop",
+    icon: "🎓",
   },
   {
     title: "Bachelor of Arts — Sculpture & Aesthetics",
     school: "Seoul National University",
     period: "2020/03 ~ 2025/02",
-    image:
-      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=600&h=800&fit=crop",
+    icon: "🎓",
   },
   {
     title: "Design Thinking Workshop",
     school: "Global UX Community",
     period: "2024",
-    image:
-      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=800&fit=crop",
+    icon: "📚",
   },
 ];
 

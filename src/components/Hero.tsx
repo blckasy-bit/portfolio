@@ -4,7 +4,7 @@ import { heroImages, profile } from "@/data/portfolio";
 
 const subNav = [
   { href: "#about", label: "About" },
-  { href: "#services", label: "Services" },
+  { href: "#skills", label: "Skills" },
   { href: "#work", label: "Work" },
 ];
 
