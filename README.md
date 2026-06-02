@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Saeyoun Park Portfolio
 
-## Getting Started
+UX/UI · Product Designer 포트폴리오 웹사이트입니다. Next.js + Tailwind CSS로 제작되었으며 Vercel 배포에 최적화되어 있습니다.
 
-First, run the development server:
+## 기술 스택
+
+- **Framework:** Next.js 16 (App Router)
+- **Styling:** Tailwind CSS v4
+- **Language:** TypeScript
+- **Deployment:** Vercel
+
+## 로컬 실행
 
 ```bash
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+브라우저에서 [http://localhost:3000](http://localhost:3000)을 열어 확인합니다.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Vercel 배포
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. [Vercel](https://vercel.com)에 GitHub 저장소를 연결합니다.
+2. **Root Directory**를 `portfolio`로 설정합니다.
+3. Framework Preset은 **Next.js**를 선택합니다.
+4. Deploy 버튼을 클릭합니다.
 
-## Learn More
+또는 Vercel CLI로 배포할 수 있습니다:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cd portfolio
+npx vercel
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 프로젝트 구조
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+portfolio/
+├── src/
+│   ├── app/           # Next.js App Router
+│   ├── components/    # UI 컴포넌트
+│   └── data/          # 포트폴리오 콘텐츠 데이터
+└── public/
+```
 
-## Deploy on Vercel
+## 콘텐츠 수정
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+포트폴리오 텍스트·프로젝트·스킬 등은 `src/data/portfolio.ts`에서 수정할 수 있습니다. 원본 마크다운은 `../docs/saeyoun-park-portfolio.md`에 있습니다.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 섹션 구성
+
+- **Hero** — 소개 및 pill 형태 이미지 갤러리
+- **Latest Projects** — 경력 기반 프로젝트
+- **Services** — 스킬 카드
+- **Studio** — 프로필 및 통계
+- **Testimonials** — 추천사
+- **FAQ** — 자주 묻는 질문
+- **Education** — 학력
+- **Footer** — 연락처 및 경력
