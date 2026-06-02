@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { profile, stats } from "@/data/portfolio";
+import { profile } from "@/data/portfolio";
 
 export default function Studio() {
   return (
@@ -33,17 +33,6 @@ export default function Studio() {
       <p className="mt-8 max-w-3xl text-base leading-relaxed text-[#444] md:text-lg">
         {profile.bio}
       </p>
-
-      <div className="mt-12 grid grid-cols-2 gap-8 border-t border-[#e8e8e8] pt-12 md:grid-cols-4">
-        {stats.map((stat) => (
-          <div key={stat.label}>
-            <p className="font-sans text-3xl font-bold md:text-4xl">
-              {stat.value}
-            </p>
-            <p className="mt-1 font-sans text-sm text-[#666]">{stat.label}</p>
-          </div>
-        ))}
-      </div>
     </section>
   );
 }

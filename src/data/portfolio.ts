@@ -87,12 +87,6 @@ export const services = [
   { title: "Prototyping", stars: 5, icon: "⚡" },
 ];
 
-export const stats = [
-  { value: "5+", label: "Years experience" },
-  { value: "30+", label: "Projects completed" },
-  { value: "15+", label: "Happy clients" },
-  { value: "3", label: "Languages spoken" },
-];
 
 export const testimonials = [
   {
